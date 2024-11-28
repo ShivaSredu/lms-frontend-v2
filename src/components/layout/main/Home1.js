@@ -1,25 +1,27 @@
-import About1 from "@/components/sections/abouts/About1";
-import Blogs from "@/components/sections/blogs/Blogs";
-import CoursesFilter from "@/components/sections/courses/CoursesFilter";
-import Hero1 from "@/components/sections/hero-banners/Hero1";
-import Instructors from "@/components/sections/instructors/Instructors";
-import PopularSubjects from "@/components/sections/popular-subjects/PopularSubjects";
-import PricingPlans from "@/components/sections/pricing-plans/PricingPlans";
 import Registration from "@/components/sections/registrations/Registration";
-import BrandHero from "@/components/sections/sub-section/BrandHero";
 import React from "react";
+import About3 from "@/components/sections/abouts/About3";
+import Blogs2 from "@/components/sections/blogs/Blogs2";
+import CoursesFilter from "@/components/sections/courses/CoursesFilter";
+import FeatureCourses from "@/components/sections/featured-courses/FeatureCourses";
+import Hero1 from "@/components/sections/hero-banners/Hero1";
+import Instructors2 from "@/components/sections/instructors/Instructors2";
+import PopularSubjects2 from "@/components/sections/popular-subjects/PopularSubjects2";
+import SubjectMarque from "@/components/sections/sub-section/SubjectMarque";
+import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 const Home1 = () => {
   return (
     <>
       <Hero1 />
-      <BrandHero />
-      <About1 />
-      <PopularSubjects />
+      <SubjectMarque />
+      <FeatureCourses title="Featured Courses" />
+      <About3 />
+      <PopularSubjects2 />
       <CoursesFilter />
       <Registration />
-      <PricingPlans />
-      <Instructors />
-      <Blogs />
+      <Instructors2 />
+      <Testimonials2 />
+      <Blogs2 />
     </>
   );
 };

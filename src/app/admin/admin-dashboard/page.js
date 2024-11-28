@@ -19,6 +19,7 @@ const Admin_Dashboard = () => {
         <ThemeController />
       </main>
     </PageWrapper>
+    
   );
 };
 
